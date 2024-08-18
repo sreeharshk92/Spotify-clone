@@ -1,0 +1,43 @@
+/* Hide default scrollbar styles and create a custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 28px; /* For horizontal scrolling, if needed */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.5); /* Gray color with transparency */
+    border-radius: 4px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent; /* Transparent track to hide the default appearance */
+    border-radius: 4px; /* Same radius as the thumb to maintain consistency */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.7); /* Darker gray on hover */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:active {
+    background-color: rgba(128, 128, 128, 0.9); /* Even darker gray when active */
+  }
+  
+  /* Firefox scrollbar styling */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(128, 128, 128, 0.5) transparent;
+  }
+  
+  .custom-scrollbar:hover {
+    scrollbar-color: rgba(128, 128, 128, 0.7) transparent;
+  }
+  
+  .custom-scrollbar:active {
+    scrollbar-color: rgba(128, 128, 128, 0.9) transparent;
+  }
+  
+  /* Hide scrollbar in IE and Edge */
+  .custom-scrollbar {
+    -ms-overflow-style: none;
+  }
+  
