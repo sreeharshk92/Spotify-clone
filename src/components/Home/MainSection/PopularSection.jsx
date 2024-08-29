@@ -2,7 +2,7 @@ import React from 'react'
 
 function PopularSection() {
     return (
-        <section className='bg-[#1E1E1E]'>
+        <section className='bg-gradient-to-b from-[#1E1E1E] to-[#121212]'>
             <div className='flex justify-between px-5'>
                 <h1 className='pt-[3rem] font-bold text-[1.5rem] text-white  hover:underline cursor-pointer'>Popular artists</h1>
                 <h1 className='pt-[3.6rem] font-bold text-[1rem] text-[#ABABAB]'>Show all</h1>
