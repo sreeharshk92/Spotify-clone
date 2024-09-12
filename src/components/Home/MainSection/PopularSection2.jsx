@@ -16,11 +16,25 @@ function PopularSection2() {
                         <h1 className='font-semibold mb-1 w-[8.7rem]'>Assshiqui 2</h1>
                         <h1 className='text-[#ABABAB] font-semibold w-[8.7rem] text-[.86rem]'>Mithoon,Ankit Tiwari,Jeet Gannguli</h1>
                     </div>
+                    
                     <div className='hover:bg-[#1E1E1E] hover:transition-transform ease-out duration-100 mt-1 pb-[2rem] px-4 rounded-md'>
-                        <div className='bg-[#b79d9d] my-3 w-[8.7rem] h-[8.5rem]'></div>
+                        <div className='bg-[#b79d9d] my-3 w-[8.7rem] h-[8.5rem] rounded-md'></div>
                         <h1 className='font-semibold mb-1 w-[8.7rem]'>Assshiqui 2</h1>
                         <h1 className='text-[#ABABAB] font-semibold w-[8.7rem] text-[.86rem]'>Mithoon,Ankit Tiwari,Jeet Gannguli</h1>
                     </div>
+
+                    <div className='hover:bg-[#1E1E1E] hover:transition-transform ease-out duration-100 mt-1 pb-[2rem] px-4 rounded-md'>
+                        <div className='bg-[#b79d9d] my-3 w-[8.7rem] h-[8.5rem] rounded-md'></div>
+                        <h1 className='font-semibold mb-1 w-[8.7rem]'>Assshiqui 2</h1>
+                        <h1 className='text-[#ABABAB] font-semibold w-[8.7rem] text-[.86rem]'>Mithoon,Ankit Tiwari,Jeet Gannguli</h1>
+                    </div>
+                    
+                    <div className='hover:bg-[#1E1E1E] hover:transition-transform ease-out duration-100 mt-1 pb-[2rem] px-4 rounded-md'>
+                        <div className='bg-[#b79d9d] my-3 w-[8.7rem] h-[8.5rem] rounded-md'></div>
+                        <h1 className='font-semibold mb-1 w-[8.7rem]'>Assshiqui 2</h1>
+                        <h1 className='text-[#ABABAB] font-semibold w-[8.7rem] text-[.86rem]'>Mithoon,Ankit Tiwari,Jeet Gannguli</h1>
+                    </div>
+                    
 
                 </section>
 

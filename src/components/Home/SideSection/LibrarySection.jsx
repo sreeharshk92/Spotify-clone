@@ -15,8 +15,8 @@ function LibrarySection() {
                     </div>
 
                     <section className='px-2'>
-                        <div className="w-[21.3rem] h-[15rem] overflow-hidden bg-[#121212]">
-                            <div className=" max-h-[15rem] overflow-y-scroll custom-scrollbar py-5 flex flex-col gap-6 ">
+                       
+                            <div className="py-5 flex flex-col gap-6 ">
                                 <div className='bg-[#1F1F1F]  w-[20.5rem] text-white rounded-lg'>
                                     <div className='py-4 px-4 gap-4 font-bold'>
                                         <h1 className='flex  cursor-pointer'>Create your first playlist</h1>
@@ -34,7 +34,7 @@ function LibrarySection() {
                                 </div>
 
                             </div>
-                        </div>
+                        
                     </section>
 
                     <section className='flex flex-col gap-3 py-[2.1rem] text-[.7rem] px-5 text-[#ABABAB]'>
