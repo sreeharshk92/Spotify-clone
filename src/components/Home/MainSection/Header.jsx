@@ -25,8 +25,8 @@ function Header() {
                 
 
                 <div className='flex gap-6 justify-center items-center'>
-                    <Link to='signup'><button className='text-[#ABABAB] font-bold text-[1.1rem] hover:text-white hover:text-lg'>Sign up</button></Link>
-                    <button className='border rounded-full py-[.7rem] px-8 bg-white font-bold text-black'>Log in</button>
+                    <Link to='/signup'><button className='text-[#ABABAB] font-bold text-[1.1rem] hover:text-white hover:text-lg'>Sign up</button></Link>
+                    <Link to='/login'><button className='border rounded-full py-[.7rem] px-8 bg-white font-bold text-black'>Log in</button></Link>
                 </div>
 
 

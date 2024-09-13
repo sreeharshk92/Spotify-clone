@@ -3,6 +3,7 @@ import { BiLogoSpotify } from "react-icons/bi";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 function SignUp() {
@@ -47,7 +48,7 @@ function SignUp() {
 
                     <hr className='my-5' />
 
-                    <p className='font-semibold text-center text-[#d1c1c1]'>Already have an account? <span className='underline text-white'>Log in here.</span></p>
+                    <p className='font-semibold text-center text-[#d1c1c1]'>Already have an account? <Link to='/login'><span className='underline text-white'>Log in here.</span></Link></p>
                     <div className='w-[23rem] text-[.8rem] text-[#d1c1c1] '>
                         <p className='text-center'>This site is protected by reCAPTCHA and the Google</p>
                         <p className='text-center'>  <span className='underline'>Privacy Policy.</span> and <span className='underline'>Terms of Service apply.</span></p>

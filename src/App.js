@@ -3,6 +3,7 @@ import Home from "./components/Home/Home";
 import BrowseAll from "./components/Home/MainSection/BrowseAll";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SignUp from "./components/Auth/SignUp";
+import Login from "./components/Auth/Login";
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/browseall" element={<BrowseAll/>}></Route>
 
         <Route path="/signup" element={<SignUp/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
 
 
       </Routes>
