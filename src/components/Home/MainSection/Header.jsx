@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <section className='pt-2 sticky top-0 bg-black items-center justify-center'>
-            <header className=' py-1 px-6 justify-between flex rounded-t-lg text-white'>
+            <header className=' py-2 px-6 justify-between flex rounded-t-lg text-white'>
 <section className='flex gap-2 ml-[7rem]'>
 
 

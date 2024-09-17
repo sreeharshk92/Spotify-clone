@@ -9,16 +9,20 @@ import FeaturedCharts from './MainSection/FeaturedCharts'
 import SpotifyPlaylists from './MainSection/SpotifyPlaylists'
 import TrendingEpisodes from './MainSection/TrendingEpisodes'
 import Footer from './MainSection/Footer'
+import BottomBox from './BottomBox/BottomBox'
 
 function Home() {
     return (
-        <div className='bg-black min-h-screen flex '>
+        <div className='bg-black min-h-screen flex flex-col '>
+            <section className='flex'>
+
+            
             <section>
                 <LogoSection />
                 <LibrarySection />
             </section>
 
-            <section className='w-full pr-2'>
+            <section className='w-full pr-2 pl-4'>
                 <Header />
                 <PopularSection />
                 <PopularSection2 />
@@ -28,6 +32,9 @@ function Home() {
                 <TrendingEpisodes />
                 <Footer />
             </section>
+            </section>
+
+            <BottomBox />
 
 
         </div>

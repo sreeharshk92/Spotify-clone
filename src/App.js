@@ -12,11 +12,14 @@ import Login from "./components/Auth/Login";
 function App() {
   return (
     <>
+     
     <Router>
+
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/browseall" element={<BrowseAll/>}></Route>
-
+       
+       
         <Route path="/signup" element={<SignUp/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
 
