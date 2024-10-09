@@ -39,24 +39,23 @@ function LibrarySection() {
 
                     <section className='flex flex-col gap-3 py-[2.1rem] text-[.7rem] px-5 text-[#ABABAB]'>
                         <li className='flex gap-5 '>
-                            <a href="">Legal</a>
-                            <a href="">Safety&Privacy Center</a>
-                            <a href="">Privacy Policy</a>
+                            <p>Legal</p>
+                            <p>Safety&Privacy Center</p>
+                            <p>Privacy Policy</p>
                         </li>
 
                         <li className='flex gap-5 '>
-                            <a href="">Cookies</a>
-                            <a href="">About Ads</a>
-                            <a href="">Accessbility</a>
+                            <p>Cookies</p>
+                            <p>About Ads</p>
+                            <p>Accessbility</p>
                         </li>
 
                         <li className='flex gap-5'>
-                            <a href="">Cookies</a>
+                            <p>Cookies</p>
                         </li>
                     </section>
                     <section className='h-[4.5rem] px-5 '>
                         <button className='rounded-full hover:border-white hover:py-[.5rem] hover:px-[.8rem]  border-[#6c6a6a] text-[.9rem] border py-[.4rem] px-[.7rem] font-bold flex gap-1 justify-center items-center '><HiOutlineGlobeAlt className='text-[1.2rem]' />English</button>
-
                     </section>
                 </div>
 
