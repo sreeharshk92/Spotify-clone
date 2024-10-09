@@ -2,9 +2,6 @@ import React from 'react'
 import LogoSection from '../SideSection/LogoSection'
 import LibrarySection from '../SideSection/LibrarySection'
 import Header from './Header'
-import PopularSection from './PopularSection'
-import PopularSection2 from './PopularSection2'
-import PopularSection3 from './PopularSection3'
 import Footer from './Footer'
 
 function BrowseAll() {
@@ -28,22 +25,22 @@ function BrowseAll() {
                 <section className='grid grid-cols-4 gap-6'>
                     
                             <div className='bg-[#b79d9d] w-[16.4rem] h-[9.3rem] rounded-md'>
-                                <img src='' className="w-full h-full object-cover rounded-full" />
+                                <img src='' alt='music-img' className="w-full h-full object-cover rounded-full" />
                             </div>
                             <div className='bg-[#b79d9d] w-[16.4rem] h-[9.3rem] rounded-md'>
-                                <img src='' className="w-full h-full object-cover rounded-full" />
+                                <img src='' alt='music-img' className="w-full h-full object-cover rounded-full" />
                             </div>
                             <div className='bg-[#b79d9d]  w-[16.4rem] h-[9.3rem] rounded-md'>
-                                <img src='' className="w-full h-full object-cover rounded-full" />
+                                <img src='' alt='music-img' className="w-full h-full object-cover rounded-full" />
                             </div>
                             <div className='bg-[#b79d9d] w-[16.4rem] h-[9.3rem] rounded-md'>
-                                <img src='' className="w-full h-full object-cover rounded-full" />
+                                <img src='' alt='music-img' className="w-full h-full object-cover rounded-full" />
                             </div>
                             <div className='bg-[#b79d9d] w-[16.4rem] h-[9.3rem] rounded-md'>
-                                <img src='' className="w-full h-full object-cover rounded-full" />
+                                <img src='' alt='music-img' className="w-full h-full object-cover rounded-full" />
                             </div>
                             <div className='bg-[#b79d9d]  w-[16.4rem] h-[9.3rem] rounded-md'>
-                                <img src='' className="w-full h-full object-cover rounded-full" />
+                                <img src='' alt='music-img' className="w-full h-full object-cover rounded-full" />
                             </div>
                        
                     

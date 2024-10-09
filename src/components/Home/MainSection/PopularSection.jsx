@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 function PopularSection() {
     
@@ -15,9 +15,9 @@ function PopularSection() {
                     
                         <div className='hover:bg-[#442424] mt-1 pb-[2rem] px-4 rounded-md'>
                             <div className='bg-[#b79d9d] my-3 w-[8.5rem] h-[8.5rem] rounded-full'>
-                                <img src='' className="w-full h-full object-cover rounded-full" />
+                                <img src='' alt='artist-img' className="w-full h-full object-cover rounded-full" />
                             </div>
-                            <h1 className='font-semibold mb-1'></h1>
+                            <h1 className='font-semibold mb-1'>Artist name</h1>
                             <h1 className='text-[#ABABAB] font-semibold text-[.9rem]'>Artist</h1>
                         </div>
                    
