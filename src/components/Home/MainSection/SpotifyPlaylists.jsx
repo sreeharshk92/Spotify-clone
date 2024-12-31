@@ -5,7 +5,7 @@ function SpotifyPlaylists() {
     <>
       <section className='bg-[#121212]'>
             <div className='flex justify-between px-5'>
-                <h1 className='pt-[3rem] font-bold text-[1.5rem] text-white  hover:underline cursor-pointer'>Spotify Playlists</h1>
+                <h1 className='pt-[3rem] font-bold text-[1.5rem] text-white hover:underline cursor-pointer'>Spotify Playlists</h1>
                 <h1 className='pt-[3.6rem] font-bold text-[1rem] text-[#ABABAB]'>Show all</h1>
             </div>
 

@@ -16,7 +16,7 @@ function PopularSection3() {
 
 <div key={index} className='hover:bg-[#1E1E1E] hover:transition-transform ease-out duration-100 mt-1 pb-[2rem] w-[11rem] px-4 rounded-md'>
                         <div className='bg-[#b79d9d] my-3 w-[8.7rem] h-[8.5rem] rounded-md'>
-                        <img src={radios.image} className="w-full h-full object-cover" />
+                        <img src={radios.image} alt='artist.jpg' className="w-full h-full object-cover" />
 
                         </div>
                         <p className='text-[#ABABAB]  font-semibold text-[.86rem] hover:underline cursor-pointer'>{radios.artist}</p>

@@ -17,7 +17,7 @@ function PopularSection() {
                         
                         <div key={index}  className='hover:bg-[#442424] mt-1 pb-[2rem] px-4 rounded-md'>
                                 <div className='bg-[#b79d9d] my-3 w-[8.5rem] h-[8.5rem] rounded-full'>
-                                    <img src={artists.image} className="w-full h-full object-cover rounded-full" />
+                                    <img src={artists.image} alt='artist.jpg' className="w-full h-full object-cover rounded-full" />
                                 </div>
                                 <h1 className='font-semibold mb-1 hover:underline cursor-pointer'>{artists.name}</h1>
                                 <h1 className='text-[#ABABAB] font-semibold text-[.9rem] hover:underline cursor-pointer'>Artist</h1>
