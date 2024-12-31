@@ -1,4 +1,5 @@
 import React from 'react'
+import radios from '../../SongDetails/radios';
 
 function PopularSection3() {
   return (
@@ -10,11 +11,19 @@ function PopularSection3() {
             </div>
 
             <section className='px-2 text-white'>
-                <section className='flex gap-1'>
-                    <div className='hover:bg-[#1E1E1E] hover:transition-transform ease-out duration-100 mt-1 pb-[2rem] w-[11rem] px-4 rounded-md'>
-                        <div className='bg-[#b79d9d] my-3 w-[8.7rem] h-[8.5rem] rounded-md'></div>
-                        <p className='text-[#ABABAB] font-semibold text-[.86rem]'>With Neha Kakkar,Pritam,KK and</p>
+                <section className='flex gap-3'>
+{radios.map((radios,index)=>(
+
+<div key={index} className='hover:bg-[#1E1E1E] hover:transition-transform ease-out duration-100 mt-1 pb-[2rem] w-[11rem] px-4 rounded-md'>
+                        <div className='bg-[#b79d9d] my-3 w-[8.7rem] h-[8.5rem] rounded-md'>
+                        <img src={radios.image} className="w-full h-full object-cover" />
+
+                        </div>
+                        <p className='text-[#ABABAB]  font-semibold text-[.86rem] hover:underline cursor-pointer'>{radios.artist}</p>
                     </div>
+
+))}
+                    
                 </section>
 
             </section>
